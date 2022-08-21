@@ -6,13 +6,13 @@ body{
   }
   button{
     background-color: #000080;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 20px;
+    border-radius: 0.3125rem;
+    margin-left: 0.3125rem;
+    margin-right: 1.25rem;
     padding: 0px;
     text-align: center;
-    width: 100px;
-    height: 25px;
+    width: 7.5rem;
+    height: 1.5625rem;
     font-family: 'Manrope', sans-serif;
     font-weight: bold;
   }
@@ -28,7 +28,7 @@ body{
     justify-content: flex-end;
     align-items: center;
     top: 0px;
-    width: 100%;
+    min-width: 100%;
     z-index: 1;
     background-color: black;
     
@@ -40,8 +40,8 @@ body{
     background-color: black;
     opacity: 0.9;
     justify-content: flex-end;
-    padding-left: 5px;
-   flex-grow: 2;
+    padding-left: 1.875rem;
+   
   }
   .navigation ul{
     display: flex;
@@ -52,15 +52,17 @@ body{
   }
   li{
     text-align: center;
-    padding: 7px;
+    padding: 0.4375rem;
     font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
     
   }
   a{
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 1rem;
+
   }
   a:hover{
     color:white;
@@ -71,8 +73,8 @@ body{
     color: white;
     width: 100%;
     height: 100%;
-    padding: 50px;
-    font-size: 36px;
+    padding: 3.125rem;
+    font-size: 2.25rem;
     align-self: center;
     font-family: 'Merriweather', serif;
   }
@@ -94,66 +96,72 @@ body{
   
   }
    h2{
-     padding-top: 20px;
+     padding-top: 1.25rem;
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: 'PT Sans', sans-serif;
   }
   
    figure img{
-    width: 400px;
+    width: 25rem;
     height: auto;
   }
   figure{
-    width: 400px;
-    border: 3px solid white; 
-    margin: 15px 15px;
+    width: 25rem;
+    border: 0.1875rem solid #3CB371; 
+    margin: 2rem 5rem;
+    justify-self: center;
+
+    
   }
   figcaption{
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 0.625rem 1rem;
+    font-size: 1.25rem;
     color: white;
     font-family: 'PT Sans', sans-serif;
   }
   .artificial-intelligence{
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
   .technology-solutions{
     margin-bottom: 0px;
+    max-width: 100%;
   }
+  
   
   .partner-images{
    display: flex;
    justify-content: center;
    flex-flow: row wrap;
    align-items: center;
-   margin: 25px 25px;
+   margin: 1.5625rem 1.5625rem;
   }
   .partner-images h2{
     width: 100%;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
   }
   .partner-images img{ 
-  width: 50px;
-  padding: 10px;
+  width: 3.125rem;
+  padding: 0.625rem;
   }
   .team-members-text{
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 1.375rem;
   }
   .team-members{
     width: 30%;
     border: none;
+    margin: 1rem 1rem;
     
   }
   .team-members-text h3{
    color: white;
-   padding-bottom: 15px;
+   padding-bottom: 1rem;
    font-family: 'Alumni Sans Pinstripe', sans-serif;
   }
   .team-members-text p{
-    font-size: 15px;
+    font-size: 1rem;
     color: white;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
   }
@@ -175,7 +183,7 @@ body{
     color: white;
     width: 100%;
     font-family: 'PT Sans', sans-serif;
-    padding-top:20px;
+    padding-top: 1.25rem;
   }
   .team img{
     width: 100%;
@@ -185,9 +193,68 @@ body{
   }
   
   footer{
-  
-    height: 100px;
+    display:flex;
     background-color: #3CB371;
     width: 100%;
-    
+    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
   }
+  
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding-left: 0.5rem;
+}
+.icons img{
+    display:flex;
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: 0.7rem;
+    padding-right: 0.5rem;
+    justify-self: flex-start;
+    
+}
+.copyright-icon img{
+    width: 1rem;
+    height: 1rem;
+    margin-bottom: 0.4rem;
+    padding-right: 0.4rem;
+   justify-self: flex-start;
+    
+}
+.copyright-icon{
+    display: flex;
+    width:50%;
+    justify-content: flex-end;
+
+}
+
+.footer-text{
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+    color:black;
+    font-family: 'PT Sans', sans-serif;
+    padding-right: 0.5rem;
+}
+.contact-us-heading{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.email{
+    color: black;
+    padding-left: 3rem;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-flow: column;
+}
+.form-submit{
+    margin-bottom: 1rem;
+    background-color: yellow;
+}
+textarea{
+    width: 10rem;
+}
