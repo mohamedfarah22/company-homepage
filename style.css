@@ -28,7 +28,8 @@ body{
     justify-content: flex-end;
     align-items: center;
     top: 0px;
-    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
     z-index: 1;
     background-color: black;
     
@@ -257,4 +258,35 @@ body{
 }
 textarea{
     width: 10rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+ a{
+     font-size: 0.5rem;
+     max-width: 30rem;
+ }
+ .mission img{
+     display: none;
+ }
+ .button{
+     max-width: 0.1rem;
+ }
+ .header{
+     display: flex;
+     justify-content: flex-start;
+ }
+ .navigation{
+     display:flex;
+     justify-self:flex-start;
+
+ }
+ ul{
+     padding-left: 2rem;
+ }
+ figure{
+     max-width: 18.75rem;
+ }
+ figure img{
+     max-width:16rem;
+ }
 }
