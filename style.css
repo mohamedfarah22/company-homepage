@@ -104,13 +104,14 @@ body{
   }
   
    figure img{
+       display:flex;
     width: 25rem;
     height: auto;
   }
   figure{
     width: 25rem;
     border: 0.1875rem solid #3CB371; 
-    margin: 2rem 5rem;
+    margin: 3rem 5rem;
     justify-self: center;
 
     
@@ -255,38 +256,105 @@ body{
 .form-submit{
     margin-bottom: 1rem;
     background-color: yellow;
+    color: black;
 }
 textarea{
     width: 10rem;
 }
-
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media only screen and (min-width: 992px){
+    figure{
+        margin: 3rem 10rem;
+    }
+    
+   
+}
+@media only screen and (max-width: 480px){
  a{
-     font-size: 0.5rem;
-     max-width: 30rem;
+     font-size: 0.4rem;
+     max-width: 20rem;
+     font-weight: bold;
+ }
+ header{
+     max-width:100%;
+     display: fixed;
  }
  .mission img{
      display: none;
  }
- .button{
-     max-width: 0.1rem;
+ .mission h1{
+     padding-left: 2rem;
+     font-size:2rem;
+     width: 15rem;
+ }
+body{
+    margin-top:2rem;
+    
+}
+ button{
+     width: 4rem;
+     height: 1.5rem;
+     margin-left: 0.2rem;
+     
+ }
+ 
+ .navigation ul{
+     max-width: 100%;
+     display:flex;
  }
  .header{
      display: flex;
-     justify-content: flex-start;
+     justify-content: center;
+     margin-bottom: 100rem;
  }
  .navigation{
-     display:flex;
-     justify-self:flex-start;
+     padding-left:0rem;
+     display: flex;
+     justify-content: flex-end;
 
  }
  ul{
-     padding-left: 2rem;
+     padding-left:2rem;
+     display: flex;
+     justify-content: space-around;
  }
- figure{
-     max-width: 18.75rem;
+ li{
+    text-align: center;
+    padding: 0.1rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    
+  }
+  .team{
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+     
+  }
+  
+ .technology-solutions{
+     max-width: 100%;
+     flex-shrink: 2;
  }
- figure img{
-     max-width:16rem;
+ .figure-container{
+   
  }
+ footer{
+     max-width: 30rem;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .icons{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding-left: 0.2rem;
+}
+.email{
+    color: black;
+    padding-left: 0rem;
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-flow: column;
+}
 }
