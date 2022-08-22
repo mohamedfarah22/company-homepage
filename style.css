@@ -268,7 +268,7 @@ textarea{
     
    
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 515px){
  a{
      font-size:0.5rem;
      font-weight: bold;
@@ -285,7 +285,7 @@ textarea{
  .mission h1{
      padding-left: 2rem;
      font-size:2rem;
-     width: 15rem;
+     width: 40%;
  }
 body{
     margin-top:2rem;
@@ -375,4 +375,16 @@ body{
 .figure-container figcaption{
     font-size: 1rem;
 }
+}
+
+@media only screen and (min-width: 516px) and (max-width: 991px){
+    .mission img{
+        display: none;
+    }
+    h1{
+        margin-top: 1rem;
+        width: 30%;
+    } a{
+        font-size: 0.8rem;
+    }
 }
