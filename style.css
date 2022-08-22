@@ -319,7 +319,7 @@ body{
  }
  li{
     text-align: center;
-    padding: 0.1rem;
+    padding: 0.2rem;
     font-family: 'Manrope', sans-serif;
     font-size: 2rem;
     font-weight: bold;
@@ -333,12 +333,10 @@ body{
   }
   
  .technology-solutions{
-     max-width: 100%;
-     flex-shrink: 2;
+     max-width: 90%;
+       
  }
- .figure-container{
-   
- }
+ 
  footer{
      max-width: 30rem;
      display: flex;
